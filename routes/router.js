@@ -14,14 +14,14 @@ const Navigator  = TabNavigator({
         screen:Home,
         navigationOptions:{
             tabBarLabel:'Home',
-            tabBarIcon:({ tintColor }) => <Icon name="list" size={35} color={tintColor} />
+            tabBarIcon:({ tintColor }) => <Icon name="add-to-list" size={35} color={tintColor} />
         }
    },
    Settings:{
         screen:Settings,
         navigationOptions:{
             tabBarLabel:'Settings',
-            tabBarIcon:({ tintColor }) => <Icon name="account-circle" size={35} color={tintColor} />
+            tabBarIcon:({ tintColor }) => <Icon name="add-user" size={35} color={tintColor} />
         }
    }
 });
